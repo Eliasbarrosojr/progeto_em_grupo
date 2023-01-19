@@ -1,0 +1,266 @@
+.header__button--home{
+    width: 95px;
+    height: 30px;
+    border-radius: 16px ;
+    padding: 4px, 24px, 4px, 24px;
+    background-color: transparent;
+    border: 1px solid var(--brand-color);
+    color: var(--brand-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.header__button--logout{
+    width: 102px;
+    height: 30px;
+    border-radius: 16px ;
+    padding: 4px, 24px, 4px, 24px;
+    background-color: var(--brand-color);
+    color: var(--white);
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+
+
+.header__button--singup{
+    width: 112px;
+    height: 30px;
+    border-radius: 16px ;
+    padding: 4px, 24px, 4px, 24px;
+    background-color: transparent;
+    border: 1px solid var(--brand-color);
+    color: var(--brand-color);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.header__button--singup:hover {
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+.header__button--login{
+    width: 90px;
+    height: 30px;
+    border-radius: 16px ;
+    padding: 4px, 24px, 4px, 24px;
+    background-color: var(--brand-color);
+    color: var(--white);
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.information__button--update{
+    width: 181px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+    background: var(--brand-color);
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.information__button--delete{
+    width: 124px;
+    height: 27px;
+    border: 1px solid #EA534A;
+    border-radius: 16px;
+    background: transparent;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #EA534A;
+    cursor: pointer;
+}
+
+.update__close--button{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    color: var(--white);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.delete__close--button{
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    color: var(--white);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.modal__update--button{
+    width: 240px;
+    height: 27px;
+    background: var(--brand-color);
+    border-radius: 16px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+.modal__delete--button{
+    width: 240px;
+    height: 27px;
+    background: var(--brand-color);
+    border-radius: 16px;
+    border: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--white);
+    cursor: pointer;
+    
+}
+
+.login__close--button{
+    width: 90px;
+    height: 30px;
+    border-radius: 16px ;
+    padding: 4px, 24px, 4px, 24px;
+    background-color: var(--brand-color);
+    color: var(--white);
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+
+.information__button--delete{
+    width: 240px;
+    height: 27px;
+    border: 1px solid #EA534A;
+    border-radius: 16px;
+    background: transparent;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #EA534A;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+    .header__button--home{
+        width: 95px;
+        height: 30px;
+        border-radius: 16px ;
+        padding: 4px, 24px, 4px, 24px;
+        background-color: transparent;
+        border: 1px solid var(--brand-color);
+        color: var(--brand-color);
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        cursor: pointer;
+    }
+    
+    .header__button--logout{
+        width: 102px;
+        height: 30px;
+        border-radius: 16px ;
+        padding: 4px, 24px, 4px, 24px;
+        background-color: var(--brand-color);
+        color: var(--white);
+        border: none;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        cursor: pointer;
+    
+    }
+    
+    .information__button--update{
+        max-width: 80vw;
+        height: 50px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: var(--white);
+        background: var(--brand-color);
+        border-radius: 16px;
+        border: none;
+        cursor: pointer;
+        
+    }
+    
+    .information__button--delete{
+        max-width: 80vw;
+        height: 50px;
+        border: 1px solid #EA534A;
+        border-radius: 16px;
+        background: transparent;
+    
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #EA534A;
+        cursor: pointer;
+    }
+}

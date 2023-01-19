@@ -1,0 +1,252 @@
+.header__div--container{
+    width: 100vw;
+    height: 80px;
+    padding: 24px 60px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.header__logo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--brand-color);
+    
+}
+
+.header__container--buttons{
+    display: flex;
+    gap: 12px;
+}
+
+main {
+    display: flex;
+    margin: 50px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.container_list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    width: 700px;
+    max-width: 90%;
+    height: auto;
+    flex-direction: row;
+
+}
+
+.list_iten {
+    width: 200px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: var(--radius-default);
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+.description > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+
+    color: var(--brand-color);
+}
+
+.description > span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: var(--black);
+}
+
+footer {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: var(--brand-color);
+}
+
+.modal_container {
+    width: 531px;
+    height: 386px;
+    border: solid 1px;
+    overflow: hidden;
+}
+
+.modal_container::backdrop {
+    background-color: rgba(27, 28, 30, 0.65);
+}
+
+.modal_container_register {
+    width: 531px;
+    height: 386px;
+    border: solid 1px;
+    overflow: hidden;
+}
+
+.modal_container_register::backdrop {
+    background-color: rgba(27, 28, 30, 0.65);
+}
+
+
+.modal_style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.dialog_header {
+    display: flex;
+    padding: 0px 8px;
+    width: 100%;
+    height: 42px;
+    background-color: var(--brand-color);
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pet{
+    width: 200px;
+    height: 161px;
+}
+
+.dialog_footer{
+    width: 102%;
+    height: 42px;
+    background-color: var(--brand-color);
+}
+
+.close {
+    cursor: pointer;
+    padding: 0px 8px;
+}
+
+#close{
+    cursor: pointer;
+    padding: 0px 8px;
+}
+
+.dialog_footer {
+    width: 100%;
+    height: 42px;
+    background-color: var(--brand-color);
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    gap: 22px;
+}
+
+.form__container > h2{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+
+    color: var(--brand-color);
+}
+
+.form__container > input {
+    width: 240px;
+    padding: 0px 10px;
+    height: 27px;
+    border-radius: var(--radius-default);
+    border: solid 1px;
+}
+ 
+.form__container > button {
+    width: 264px;
+    height: 30px;
+    padding: 0px 24px;
+    border-radius: var(--radius-default);
+    border: solid 1px;
+    background-color: var(--brand-color);
+    color: var(--white);
+
+    cursor: pointer;
+}
+
+.form__container > span {
+    text-align: center;
+    font-size: 12px;
+}
+
+.link{
+    color: var(--brand-color);
+}
+
+@media (max-width: 900px){
+    .header__div--container{
+        max-width: 100vw;
+        height: 80px;
+        padding: 5px 5px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .header__logo{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--brand-color);
+        
+    }
+    
+    .header__container--buttons{
+        display: flex;
+        gap: 10px;
+    }
+
+    .container_list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        width: 700px;
+        max-width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}

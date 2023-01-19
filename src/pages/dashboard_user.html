@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/dashboard_user.css">
+    <link rel="stylesheet" href="../styles/button.css">
+    <link rel="stylesheet" href="../styles/update_modal.css">
+    <title>Kenzie Pets</title>
+</head>
+<body>
+    <main class="main__container">
+        <header class="main__header">
+            <div class="header__div--container">
+                <h1 class="header__logo">KenziePets</h1>
+                <div class="header__container--buttons">
+                    <button id="homeButton" class="header__button--home">Home</button>
+                    <button id="logoutButton" class="header__button--logout">Logout</button>
+                </div>
+            </div>
+        </header>
+        <section class="main__section--user">
+            <div class="section__container--purple"></div>
+            <div class="section__container--user">
+                <div class="section__container--picture"> 
+                    <img class="picture--img" src="../assets/avatar.png" alt="Avatar">
+                </div>
+                <div class="section__container--information">
+                    <div class="container__information--title">
+                        <h1 class="information__title">Dados Pessoais</h1>
+                    </div>
+                    <div class="container__information--user">
+                        <p class="information__user"><span class="information__user--span">Nome:</span> Kenzinha</p>
+                        <p class="information__user"><span class="information__user--span">E-mail:</span> kenzinha@kenzie.com.br</p>
+                        <p class="information__user"><span class="information__user--span">Data de nascimento:</span> 21/03/2000</p>
+                    </div>
+                    <div class="container__information--button">
+                        <button id="updateButton" class="information__button--update" >Atualizar Informações</button>
+                        <button id="deleteButton" class="information__button--delete">Deletar Conta</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <dialog id="showUpdateModal" class="modal__update">
+        <div class="update__modal--container">
+            <div class="update__form--container">
+                <div class="container__close--button">
+                    <button class="update__close--button">X</button>
+                </div>
+                <div class="form__container">
+                    <h1 class="form__container--title">Atualizar Perfil</h1>
+                    <div class="form__inputs--container">
+                        <input class="form__input" placeholder="Nome" type="text" name="name">
+                        <input class="form__input" placeholder="E-mail" type="text" name="email">
+                        <input class="form__input" placeholder="Avatar" type="text" name="avatar_url">
+                        <button type="submit" id="sendUpdate" class="modal__update--button">Atualizar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <dialog id="modalDelete">
+        <input type="button" value="Deletar Conta" onclick="showModalDelet()" id="inputShow">
+        <div id="modalDelet">
+            <div id="contentDelet">
+                <div id="headerDelet">
+                    <button onclick="hidenModalDelet()">
+                        <span class="material-symbols-outlined">
+                            cancel
+                        </span>
+                    </button>
+                </div>
+                <div id="bodyDelet">
+                    <h1>Deseja mesmo deletar sua conta?</h1>
+                    <button onclick="hidenModalDelet()" class="btn-modal" id="btn-cancelDelet">Não desejo deletar minha conta</button>
+                    <button onclick="deletProfile()" class="btn-modal" id="btn-confirmDelet">Quero deletar minha conta</button>
+                </div>
+                <div id="footerDelet">
+    
+                </div>
+            </div>
+        </div>
+    </dialog>
+    <script type="module" src="../scripts/dashboard_user.js"></script>
+</body>
+</html>

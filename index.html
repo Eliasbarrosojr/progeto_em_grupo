@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TOASTIFY -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/button.css">
+
+    <title>KenziePets</title>
+</head>
+<body>
+    <header class="main__header">
+        <div class="header__div--container">
+            <h1 class="header__logo">KenziePets</h1>
+            <div class="header__container--buttons">
+                <button id="singUp" class="header__button--singup">Cadastre-se</button>
+                <button id="login" class="header__button--login">Login</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <ul class="container_list">
+            <li class="list_iten">
+                <img src="./src/assets/ramester.svg" alt="pet" class="pet">
+                <div class="description">
+                    <h2>Golias</h2>
+                    <span>ramster</span>
+                </div>
+            </li>
+            <li class="list_iten">
+                <img src="./src/assets/dog.svg" alt="pet" class="pet">
+                <div class="description">
+                    <h2>Nero</h2>
+                    <span>cachorro</span>
+                </div>
+            </li>
+            <li class="list_iten">
+                <img src="./src/assets/timur-m-SAKLELG-pO8-unsplash 1.svg" alt="pet" class="pet">
+                <div class="description">
+                    <h2>Romeu</h2>
+                    <span>gato</span>
+                </div>
+            </li>
+            <li class="list_iten">
+                <img src="./src/assets/timur-m-SAKLELG-pO8-unsplash 1.svg" alt="pet" class="pet">
+                <div class="description">
+                    <h2>Romeu</h2>
+                    <span>gato</span>
+                </div>
+            </li>
+        </ul>
+        <footer>
+            <h2>KenziePets | Todos os Direitos Reservados</h2>
+        </footer>
+    </main>
+    <!-- TOASTIFY -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- script -->
+    <script type="module" src="./src/scripts/index.js"></script>
+    <script type="module" src="./src/scripts/login.js"></script>
+    <script type="module" src="./src/scripts/cadastro.js"></script>
+</body>
+</html>
